@@ -34,6 +34,9 @@ import '!file-loader?name=[name].[ext]!./images/icon-192x192.png';
 import '!file-loader?name=[name].[ext]!./images/icon-384x384.png';
 import '!file-loader?name=[name].[ext]!./images/icon-512x512.png';
 import '!file-loader?name=[name].[ext]!./manifest.json';
+import '!file-loader?name=[name].[ext]!./data.csv';
+import '!file-loader?name=[name].[ext]!./data.tsv';
+import '!file-loader?name=[name].[ext]!./Tong-t1 (1024Hz).csv';
 import 'file-loader?name=[name].[ext]!./.htaccess';
 /* eslint-enable import/no-unresolved, import/extensions */
 
