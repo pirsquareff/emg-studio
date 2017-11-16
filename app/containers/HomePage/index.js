@@ -13,19 +13,22 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 import EEGGraph from 'components/EEGGraph';
+import LineGraph from 'components/LineGraph';
 
 const styles = {
   textAlign: 'center'
+};
+
+const lineGraphStyles = {
+  width: 1300,
+  height: 500
 };
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
       <div style={styles}>
-        <h1>
-          <FormattedMessage {...messages.header} />
-        </h1>
-        <EEGGraph />
+        <LineGraph {...lineGraphStyles} />
       </div>
     );
   }

@@ -37,7 +37,13 @@ injectGlobal`
   
   .line {
     fill: none;
-    stroke: steelblue;
+    stroke: #8e88b3;
+    clip-path: url(#clip);
     stroke-width: 1px;
+  }
+  .zoom {
+    cursor: move;
+    fill: none;
+    pointer-events: all;
   }
 `;

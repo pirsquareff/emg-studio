@@ -5,7 +5,7 @@ import { style } from 'd3-selection';
 
 const styles = {
   width: 1200,
-  height: 300,
+  height: 500,
   padding: 30
 };
 

@@ -37,6 +37,7 @@ import '!file-loader?name=[name].[ext]!./manifest.json';
 import '!file-loader?name=[name].[ext]!./data.csv';
 import '!file-loader?name=[name].[ext]!./data.tsv';
 import '!file-loader?name=[name].[ext]!./Tong-t1 (1024Hz).csv';
+import '!file-loader?name=[name].[ext]!./Tong-t1 (1024Hz) xs.csv';
 import 'file-loader?name=[name].[ext]!./.htaccess';
 /* eslint-enable import/no-unresolved, import/extensions */
 
