@@ -23,27 +23,27 @@ EEG Studio is a web-based application which facilitates labelling electroencepha
 
 ### Quickstart
 
-1. Clone this repo using `git clone git@github.com:pirsquareff/eeg-visualizer.git`
+1. Clone this repo using `git clone git@github.com:pirsquareff/eeg-studio.git`
 2. Run `docker-compose up --build` within project's root directory. This will start backend service at `localhost:3002`.
 2. Also run `yarn` within project's root directory to start frontend app which will be available at `localhost:3000`.
 
 ## Documentation
 
 ### React Boilerplate
-- [**The Hitchhikers Guide to `react-boilerplate`**](docs/general/introduction.md): An introduction for newcomers to this boilerplate.
+- [The Hitchhikers Guide to `react-boilerplate`](docs/general/introduction.md): An introduction for newcomers to this boilerplate.
 - [Overview](docs/general): A short overview of the included tools
-- [**Commands**](docs/general/commands.md): Getting the most out of this boilerplate
+- [Commands](docs/general/commands.md): Getting the most out of this boilerplate
 - [Testing](docs/testing): How to work with the built-in test harness
 - [Styling](docs/css): How to work with the CSS tooling
 - [Your app](docs/js): Supercharging your app with Routing, Redux, simple
   asynchronicity helpers, etc.
-- [**Troubleshooting**](docs/general/gotchas.md): Solutions to common problems faced by developers.
+- [Troubleshooting](docs/general/gotchas.md): Solutions to common problems faced by developers.
 
 ## License
 
-This project is licensed under the MIT license, Copyright (c) 2017 Parinthorn Saithong. For more information see `LICENSE.md`.
+This project is licensed under the MIT license, Copyright (c) 2017 Parinthorn Saithong. <br>
+For more information see [`LICENSE.md`](LICENSE.md).
 
-<hr>
-<div align="center">
-  <sub>Created by <a href="https://github.com/pirsquareff">Parinthorn Saithong</a> and maintained with ❤️.</sub>
-</div>
+---
+<sub>Created by <a href="https://github.com/pirsquareff">Parinthorn Saithong</a> and maintained with ❤️.</sub>
+
