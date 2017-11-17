@@ -44,6 +44,7 @@ EEG Studio is a web-based application which facilitates labelling electroencepha
 This project is licensed under the MIT license, Copyright (c) 2017 Parinthorn Saithong. <br>
 For more information see [`LICENSE.md`](LICENSE.md).
 
----
+<br>
+<hr>
 <sub>Created by <a href="https://github.com/pirsquareff">Parinthorn Saithong</a> and maintained with ❤️.</sub>
 
