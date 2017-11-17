@@ -1,0 +1,22 @@
+version: "3"
+services:
+  api:
+    build: ./backend
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/express-rest-es2017-boilerplate
+    volumes:
+      - ./backend:/app
+    ports:
+      - "3002:3002"
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo
+    volumes:
+      - db-data:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  db-data:
